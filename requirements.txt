@@ -1,0 +1,7 @@
+# Dependencias directas de F1 y S1.
+# Sin versiones fijadas: los notebooks registran entornos de ejecución diferentes.
+numpy
+pandas
+matplotlib
+statsmodels
+jupyterlab
