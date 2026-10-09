@@ -12,7 +12,7 @@ La actividad formativa corresponde al análisis del caso **“Bodegaje y quiebre
 
 Archivo:
 
-`notebooks/F1/mcdi505_f1calarcon.ipynb`
+`notebooks/semana_1/F1/mcdi505_f1calarcon.ipynb`
 
 ### Sumativa 1
 
@@ -33,7 +33,7 @@ El análisis considera:
 
 Archivo:
 
-`notebooks/S1/mcdi505_s1calarcon.ipynb`
+`notebooks/semana_1/S1/mcdi505_s1calarcon.ipynb`
 
 Dataset:
 
@@ -44,8 +44,8 @@ Dataset:
 | Archivo | Contenido |
 | --- | --- |
 | `data/raw/consumo_electrico_litoral.csv` | Datos originales de la Sumativa 1 |
-| `notebooks/F1/mcdi505_f1calarcon.ipynb` | Formativa 1 |
-| `notebooks/S1/mcdi505_s1calarcon.ipynb` | Sumativa 1 |
+| `notebooks/semana_1/F1/mcdi505_f1calarcon.ipynb` | Formativa 1 |
+| `notebooks/semana_1/S1/mcdi505_s1calarcon.ipynb` | Sumativa 1 |
 | `requirements.txt` | Dependencias para ejecutar los notebooks |
 | `README.md` | Descripción e instrucciones |
 
