@@ -1,0 +1,8 @@
+Modelo,Especificación,Validación,Retransformación,AIC,RMSE 2023,MAE 2023,Decisión
+M1,"SARIMA(0,1,0)(0,1,1)₁₂",2023 (entrenamiento 2015–2022),exp(μ + σ²/2),-300.0475574531411,7.20199872478738,6.709566634607863,"Descartado: menor AIC de M1–M4, pero error cercano al naive estacional"
+M2,"SARIMA(0,1,1)(0,1,1)₁₂",2023 (entrenamiento 2015–2022),exp(μ + σ²/2),-298.2078460685725,7.067874002139192,6.55876028810195,Descartado: término regular no significativo; error cercano al naive estacional
+M3,"SARIMA(1,1,0)(0,1,1)₁₂",2023 (entrenamiento 2015–2022),exp(μ + σ²/2),-298.19978423230447,7.087390963044983,6.581136028693333,Descartado: término regular no significativo; error cercano al naive estacional
+M4,"SARIMA(0,1,0)(1,1,0)₁₂",2023 (entrenamiento 2015–2022),exp(μ + σ²/2),-277.806412896464,4.12207165031228,3.7092684279357706,Seleccionado: menor RMSE y MAE de validación
+M6,"SARIMA(0,1,1)(0,1,1)₁₂ + covid + agudo",2023 (entrenamiento 2015–2022),exp(μ + σ²/2),-331.35521442129163,5.712327633381532,5.200765102517615,"Complementario (intervención): menor AIC global, peor pronóstico que M4 y que la deriva"
+Naive estacional,mismo mes de 2022,2023 (entrenamiento 2015–2022),— (escala original),,7.263049176023344,6.528333333333335,Referencia obligatoria
+Naive con deriva,naive × (1 + crecimiento interanual medio),2023 (entrenamiento 2015–2022),— (escala original),,4.718311977233799,4.221304666651562,Referencia: solo M4 la supera
